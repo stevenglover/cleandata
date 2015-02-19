@@ -3,8 +3,11 @@
 ///////
 ##Contents
 This repo contains the following files:
+
 — README.md
+
 — codebook.txt - information about the variables and data collection.
+
 — run_analysis.R - an R script for transforming the original dataset into this tidy form and running basic mean analysis.
 
 ##Overview
