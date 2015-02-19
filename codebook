@@ -1,0 +1,109 @@
+Codebook - Human Activity Recognition Using Smartphones Dataset
+
+The variables are modified variants of the names from the original dataset. For clarity, the variables are divided into information variables (from the participants) and measurement variables (what they were doing). 
+
+
+#### INFORMATION VARIABLES
+
+subject	
+	Participant ID number
+		1 .. 30
+
+activity
+	Activity that subject was performing when measured
+		1 .walking
+		2 .walking up stairs
+		3 .walking down stairs
+		4 .sitting
+		5 .standing
+		6 .laying
+
+#### MEASUREMENT VARIABLES
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. The variables estimate mean of the mean (“mean”) values and standard deviation (“stdeviation”) values.
+
+Time domain signals (variable names starting in “time”) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (timebodyaccelerometer(x/y/z) and timegravityaccelerometer(x/y/z) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. (x/y/z) refers to 3-axial signals in the X, Y and Z directions and are listed in individual variables.
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (timebodyaccelerometerjerk(x/y/z) and timebodygyroscopejerk(x/y/z)). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (timebodyaccelerometermagnitude, timegravityaccelerometermagnitude, timebodyacceletometerjerkmagnitude, testbodygyroscopemagnitude, testbodygyroscopejerkmagnitude). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing freqbodyaccelerometer(x/y/z), freqbodyaccelerometerjerk(x/y/z), freqbodygyroscope(x/y/z), freqbodyaccelerometerjerkmagnitude, freqbodygyrscopeomagnitude, freqbodygyroscopejerkmagnitude. (Note the “freq” at the start to indicate frequency domain signals). Additional vectors obtained by averaging the signals in a signal window sample (anglegravitymean(x/y/z))
+
+
+All measurements are in normalised units, so lie between -1 and 1. Recall that all the measurement variables are averaged based on their grouping by subject and activity.
+
+
+
+## Complete measurement variable list
+timebodyaccelerometermeanx
+timebodyaccelerometermeany                 
+timebodyaccelerometermeanz
+timegravityaccelerometermeanx
+timegravityaccelerometermeany
+timegravityaccelerometermeanz
+timebodyaccelerometerjerkmeanx
+timebodyaccelerometerjerkmeany
+timebodyaccelerometerjerkmeanz
+timebodygyroscopemeanx
+timebodygyroscopemeany
+timebodygyroscopemeanz
+timebodygyroscopejerkmeanx
+timebodygyroscopejerkmeany
+timebodygyroscopejerkmeanz
+timebodyaccelerometermagnitudemean
+timegravityaccelerometermagnitudemean
+timebodyaccelerometerjerkmagnitudemean
+timebodygyroscopemagnitudemean
+timebodygyroscopejerkmagnitudemean
+freqbodyaccelerometermeanx
+freqbodyaccelerometermeany
+freqbodyaccelerometermeanz
+freqbodyaccelerometerjerkmeanx
+freqbodyaccelerometerjerkmeany
+freqbodyaccelerometerjerkmeanz
+freqbodygyroscopemeanx
+freqbodygyroscopemeany
+freqbodygyroscopemeanz
+freqbodyaccelerometermagnitudemean
+freqbodyaccelerometerjerkmagnitudemean
+freqbodygyroscopemagnitudemean
+freqbodygyroscopejerkmagnitudemean
+angletimebodyaccelerometermeangravity
+angletimebodyaccelerometerjerkmeangravitymean
+angletimebodygyroscopemeangravitymean
+angletimebodygyroscopejerkmeangravitymean
+anglexgravitymean
+angleygravitymean
+anglezgravitymean
+timebodyaccelerometerstdeviationx
+timebodyaccelerometerstdeviationy
+timebodyaccelerometerstdeviationz
+timegravityaccelerometerstdeviationx
+timegravityaccelerometerstdeviationy
+timegravityaccelerometerstdeviationz
+timebodyaccelerometerjerkstdeviationx
+timebodyaccelerometerjerkstdeviationy
+timebodyaccelerometerjerkstdeviationz
+timebodygyroscopestdeviationx
+timebodygyroscopestdeviationy
+timebodygyroscopestdeviationz
+timebodygyroscopejerkstdeviationx
+timebodygyroscopejerkstdeviationy
+timebodygyroscopejerkstdeviationz
+timebodyaccelerometermagnitudestdeviation
+timegravityaccelerometermagnitudestdeviation
+timebodyaccelerometerjerkmagnitudestdeviation
+timebodygyroscopemagnitudestdeviation
+timebodygyroscopejerkmagnitudestdeviation
+freqbodyaccelerometerstdeviationx
+freqbodyaccelerometerstdeviationy
+freqbodyaccelerometerstdeviationz
+freqbodyaccelerometerjerkstdeviationx
+freqbodyaccelerometerjerkstdeviationy
+freqbodyaccelerometerjerkstdeviationz
+freqbodygyroscopestdeviationx
+freqbodygyroscopestdeviationy
+freqbodygyroscopestdeviationz
+freqbodyaccelerometermagnitudestdeviation
+freqbodyaccelerometerjerkmagnitudestdeviation
+freqbodygyroscopemagnitudestdeviation
+freqbodygyroscopejerkmagnitudestdeviation
